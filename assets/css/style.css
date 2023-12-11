@@ -94,6 +94,24 @@ img {
     text-align: center;
 }
 
+.class-times, td, th, tr {
+    background-color:rgba(4, 57, 89);
+    color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+    border-collapse: collapse;
+}
+
+.class-times {
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+td {
+    text-align
+}
+
+
+
 
 /*Form Styles*/
 
