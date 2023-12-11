@@ -32,6 +32,19 @@ header a {
     font-size: 200%;
 
 }
+/* Main Homepage */
+#homepage {
+    position: relative;
+    min-height: 80vh;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+}
+
+#hero-image {
+    background: url(../images/pexels-pixabay-247421.jpg) no-repeat center/cover;
+    min-height: 80vh;
+}
 
 footer {
     background-color: #ffffff;
