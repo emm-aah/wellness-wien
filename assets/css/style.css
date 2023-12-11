@@ -45,6 +45,31 @@ header a {
     background: url(../images/pexels-pixabay-247421.jpg) no-repeat center/cover;
     min-height: 80vh;
 }
+#homepage-boxes {
+    position: relative;
+    top: 8vh;
+    bottom: 10vh;
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+#homepage-boxes a {
+    text-decoration: none;
+}
+
+.nav-links-homepage {
+    background-color: rgb(4, 57, 89, 0.8);
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 90%;
+
+}
+
 
 footer {
     background-color: #ffffff;
