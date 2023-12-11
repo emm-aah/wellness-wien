@@ -69,6 +69,54 @@ header a {
     font-size: 90%;
 
 }
+/*Form Styles*/
+
+#form-box {
+
+    position: relative;
+    top: 5vh;
+    bottom: 10vh;
+    margin: 0 10px;
+    color: #ffffff;
+    background-color: rgba(4, 57, 89, 0.7);
+    padding-bottom: 10px;
+
+}
+
+#form-box p {
+    padding: 4px 10px;
+}
+
+.input-text {
+    background-color: rgb(255, 255, 255, 0.4);
+    border: 1px solid #043959;
+    padding: 3px;
+    color: #ffffff;
+    width: 90%;
+
+}
+
+.input-select {
+    background-color: rgb(255, 255, 255, 0.4);
+    border: 1px solid #043959;
+    padding: 3px;
+    color: #ffffff;
+    width: 50%;
+
+}
+
+.join-button {
+    height: 40px;
+    width: 100px;
+    background-color: #032d46;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+
+}
+
+.checkbox {
+    font-size: 75%;
+}
 
 
 footer {
