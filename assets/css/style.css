@@ -33,7 +33,7 @@ header a {
 
 }
 /* Main Homepage */
-#homepage {
+#homepage, #formpage {
     position: relative;
     min-height: 80vh;
     top: 10vh;
