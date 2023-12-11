@@ -92,3 +92,40 @@ footer a {
     justify-content: space-evenly;
     padding-top: 10px;
 }
+
+/*CSS for screens over 768px*/
+@media screen and (min-width: 768px) {
+
+    body {
+        letter-spacing: 2px;
+    }
+
+    header a {
+        font-size: larger;
+        font-stretch: extra-expanded;
+        letter-spacing: 3px;
+    }
+
+    #homepage-boxes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .nav-links-homepage {
+        height: 275px;
+        width: 275px;
+        margin-top: 50px;
+        padding: 15px 30px;
+    }
+
+    .nav-links-homepage h2 {
+        font-size: 200%;
+    }
+
+    .nav-links-homepage p {
+        font-size: 105%;
+        font-style: normal;
+        padding-top: 30px;
+    }
