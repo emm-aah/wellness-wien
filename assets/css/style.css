@@ -71,11 +71,12 @@ header a {
 }
 /*Yoga section styles*/
 
-.class-sections {
+#class-sections {
     background-color: #f5f5f5;
     color:#043959;
     margin-top: 40px;
     padding: 50px 0;
+    text-align: center;
 }
 
 
@@ -87,6 +88,10 @@ img {
     object-position: bottom;
     max-height: 250px;
     max-width: 250px;
+}
+.timetable {
+    font-size: 90%;
+    text-align: center;
 }
 
 
