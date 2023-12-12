@@ -119,6 +119,18 @@ p {
     background-color: #d3d3d9;
 }
 
+/*Contact info*/
+
+#contactinfo {
+    background-color: #d3d3d9;
+    color: #043959;
+    padding: 15px 15px 60px;
+}
+
+#contactinfo h3 {
+    text-align: center;
+}
+
 
 
 /*Form Styles*/
@@ -238,8 +250,6 @@ footer a {
     }
 
     
-
-   
     .class-times {
         line-height: 30px;
         font-size: 110%;
@@ -248,7 +258,11 @@ footer a {
         margin-bottom: 40px;
     }
 
-
+    #contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
     #form-box {
         max-width: 50vw;
