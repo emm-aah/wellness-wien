@@ -179,18 +179,13 @@ p {
 
 /*Form Styles*/
 
+
 #form-box {
 
     position: relative;
     color: #ffffff;
     background-color: rgba(4, 57, 89, 0.7);
     
-
-}
-
-#form-box p {
-    padding: 4px 10px;
-    font-size: 90%;
 }
 
 .input-text {
@@ -202,15 +197,10 @@ p {
 
 }
 
-.input-select {
-    background-color: rgb(255, 255, 255, 0.4);
-    border: 1px solid #043959;
-    padding: 3px;
-    color: #ffffff;
-    width: 90%;
-
+.join {
+    display:flex;
+    justify-content: center;
 }
-
 .join-button {
     height: 40px;
     width: 100px;
