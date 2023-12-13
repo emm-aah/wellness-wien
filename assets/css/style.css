@@ -163,12 +163,15 @@ p {
     background-color: #d3d3d9;
 }
 
-/*Contact info*/
 
-#contactinfo {
-    background-color: #d3d3d9;
-    color: #043959;
-    padding: 15px 15px 60px;
+
+
+
+/*Form Styles*/
+
+.woods-img {
+    background-image: url(../images/pexels-pixabay-247421.jpg);
+
 }
 
 #contactinfo h3 {
@@ -176,16 +179,23 @@ p {
 }
 
 
-
-/*Form Styles*/
-
-
 #form-box {
-
     position: relative;
     color: #ffffff;
     background-color: rgba(4, 57, 89, 0.7);
+    padding: 10px;
     
+}
+
+#form-box div {
+    padding: 5px;
+}
+
+.contact {
+    background-color: #d3d3d9;
+    color:#043959;
+    text-align: center;
+    padding: 10px;
 }
 
 .input-text {
