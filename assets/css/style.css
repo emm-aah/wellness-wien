@@ -1,9 +1,10 @@
 
 
 body {
-    font-family: 'Montserrat' sans-serif;
+    font-family: sans-serif;
     min-height: 90%;
     margin: 10vh 0 0;
+    background-color: #f5f5f5;
 }
 
 /* Header */
@@ -17,7 +18,7 @@ header {
     z-index: 30;
     padding-top: 10px;
     padding-bottom: 20px;
-    box-shadow: 0 1px 1px #032d46;
+    box-shadow: 0 2px 2px #032d46;
 
 }
 
@@ -25,14 +26,38 @@ header a {
     text-decoration: none;
     color: #f5f5f5;
     font-weight: 100;
+    font-family: sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 
 #logo {
     text-align: center;
     font-size: 150%;
+    z-index: 10;
 
 }
+
+nav {
+      background-color: #043959;
+      margin-top: -5px;
+      margin-left: 5px;
+      width: 150px;
+      padding: 15px 0;
+      line-height: 25px;
+      box-shadow: 0 3px 3px 0 #032d46;
+      z-index: 9;
+
+  }
+
+.menu ul {
+    list-style-type: none;
+}
+
+
 /* Main Homepage */
 #homepage, #formpage {
     position: relative;
@@ -76,12 +101,12 @@ header a {
 #class-sections {
     background-color: #f5f5f5;
     color:#043959;
-    padding: 50px 0;
     text-align: center;
 }
 
 
 img {
+    margin-top: 70px;
     height: 50vw;
     width: 50vw;
     border-radius: 50%;
@@ -214,12 +239,36 @@ footer a {
     body {
         letter-spacing: 2px;
     }
+    header {
+        box-shadow: 0;
+    }
 
     header a {
         font-size: larger;
         font-stretch: extra-expanded;
         letter-spacing: 3px;
     }
+
+    nav {
+        display: block;
+        position: relative;
+        width: 100%;
+        padding: 0;
+        box-shadow: 0 0 0 0;
+    }
+
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .menu ul {
+        list-style-type: none;
+    }
+
 
     #homepage-boxes {
         display: flex;
@@ -278,10 +327,16 @@ footer a {
 }
 
 @media screen and (min-width: 1100px) {
+    #logo {
+        font-size: 2em;
+    }
    .nav-links-homepage {
+    height: 20vw;
+    width: 20vw;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    margin-top: 20vh;
+    margin-top: 17vh;
+  
    }
 }
