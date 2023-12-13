@@ -181,8 +181,8 @@ p {
 
 #form-box {
     position: relative;
-    color: #ffffff;
-    background-color: rgba(4, 57, 89, 0.7);
+    background-color: rgba(211, 211, 217, 0.8);
+    color: #043959;
     padding: 10px;
     
 }
@@ -202,7 +202,7 @@ p {
     background-color: rgb(255, 255, 255, 0.4);
     border: 1px solid #043959;
     padding: 3px;
-    color: #ffffff;
+    color: #043959;
     width: 90%;
 
 }
@@ -214,9 +214,9 @@ p {
 .join-button {
     height: 40px;
     width: 100px;
-    background-color: #032d46;
-    color: #ffffff;
-    border: 2px solid #ffffff;
+    background-color: #043959;
+    color: #f5f5f5;
+    border:2px solid #032d46;
 
 }
 
@@ -334,15 +334,30 @@ footer a {
     #contact {
         display: flex;
         flex-direction: row;
+        justify-content:space-evenly;
+    }
+
+    #contactinfo {
+        display: flex;
+        flex-direction: row-reverse;
         justify-content: space-evenly;
+        background-color: #d3d3d9;
     }
 
     #form-box {
-        max-width: 50vw;
-        left: 25%;
+        width: 50vw;
+        background-color: rgba(211,211,217,0.8);
+        color: #043959;
+
     }
-    #form-box p {
-        font-size: 110%;
+    #form-box div {
+        font-size: 100%;
+    }
+
+    .contact {
+        padding-top: 50px;
+        font-size: 120%;
+        line-height: 30px;
     }
 }
 
@@ -362,4 +377,5 @@ footer a {
     margin-top: 17vh;
   
    }
+
 }
