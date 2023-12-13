@@ -167,16 +167,12 @@ p {
 
 }
 
-#contactinfo h3 {
-    text-align: center;
-}
-
 
 #form-box {
     position: relative;
     background-color: rgba(211, 211, 217, 0.8);
     color: #043959;
-    padding: 10px;
+    padding: 30px 10px 10px;
     
 }
 
@@ -217,7 +213,10 @@ p {
 .checkbox {
     font-size: 75%;
 }
-
+#contactinfo h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
 
 footer {
     background-color: #ffffff;
@@ -344,9 +343,9 @@ footer a {
     
 
     #contact {
-        padding-top: 50px;
         font-size: 120%;
         line-height: 30px;
+        padding-top: 50px;
     }
 }
 
@@ -354,6 +353,10 @@ footer a {
 
 
 @media screen and (min-width: 1100px) {
+
+    nav{
+        margin-top: -50px;
+    }
     #logo {
         font-size: 2em;
     }
