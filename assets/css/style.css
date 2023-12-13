@@ -15,9 +15,8 @@ header {
     left: 0;
     top: 0;
     width: 100%;
-    z-index: 30;
-    padding-top: 10px;
     padding-bottom: 20px;
+    z-index: 30;
     box-shadow: 0 2px 2px #032d46;
 }
 
@@ -26,17 +25,15 @@ header a {
     color: #f5f5f5;
     font-weight: 100;
     font-family: sans-serif;
+    text-align: center;
+    font-size: 80%;
+    padding-right: 5px;
 }
 
-.burger-and-logo {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
+.nav-burger-label {
+    font-size: 150%;
     color: #f5f5f5;
-    font-size: 100%
-
 }
-
 
 a:hover {
     text-decoration: underline;
@@ -45,12 +42,14 @@ a:hover {
 
 nav {
     background-color: #043959;
-    margin-left: 10px;
-    width: 150px;
-    padding: 15px 5px 5px;
+    margin-left: 5px;
+    margin-top: -10px;
+    width: 130px;
+    padding: 0px 0px 5px 5px;
     line-height: 25px;
     box-shadow: 0 3px 3px 0 #032d46;
     position: absolute;
+    display: none;
   }
 
 
@@ -58,8 +57,6 @@ nav {
     display: none;
 }
     
-
-
 
 #navcheckbox:checked~nav {
       display: block;
@@ -71,7 +68,6 @@ ul {
 
 
 /* Main Homepage */
-
 
 #homepage, #formpage {
     position: relative;
@@ -164,9 +160,6 @@ p {
 }
 
 
-
-
-
 /*Form Styles*/
 
 .woods-img {
@@ -191,7 +184,7 @@ p {
     padding: 5px;
 }
 
-.contact {
+#contact {
     background-color: #d3d3d9;
     color:#043959;
     text-align: center;
@@ -217,6 +210,7 @@ p {
     background-color: #043959;
     color: #f5f5f5;
     border:2px solid #032d46;
+    cursor: pointer;
 
 }
 
@@ -331,11 +325,7 @@ footer a {
         margin-bottom: 40px;
     }
 
-    #contact {
-        display: flex;
-        flex-direction: row;
-        justify-content:space-evenly;
-    }
+
 
     #contactinfo {
         display: flex;
@@ -348,13 +338,12 @@ footer a {
         width: 50vw;
         background-color: rgba(211,211,217,0.8);
         color: #043959;
-
-    }
-    #form-box div {
         font-size: 100%;
-    }
 
-    .contact {
+    }
+    
+
+    #contact {
         padding-top: 50px;
         font-size: 120%;
         line-height: 30px;

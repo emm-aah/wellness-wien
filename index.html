@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Wellness Wien. Centre for yoga and mindfulness meditation in Vienna, Austria">
-    <meta name="keywords" content="Yoga, mindfulness, meditation, retreat, Vienna, Wien, relaxtion, stress relief, wellness">
+    <meta name="keywords"
+        content="Yoga, mindfulness, meditation, retreat, Vienna, Wien, relaxtion, stress relief, wellness">
     <title>Wellness Wien</title>
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
@@ -14,90 +16,155 @@
     <!---Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <!--Header-->
     <header>
-        <div class="burger-and-logo">
-      <a href="index.html" class="active">
-            <h1 id="logo"> Wellness Wien</h1>
-        </a>
-        <!--Navigation bar-->
-
-        <label for="navcheckbox" class="nav-burger-label"><i class="fa-solid fa-bars"></i></label>
-        <input type="checkbox" id="navcheckbox" name="nav-burger">
-        </div>
+         <a href="index.html" class="active">
+                <h1 id="logo">Wellness Wien</h1>
+            </a>
+    <!--Navigation Bar-->
+    <label for="navcheckbox" class="nav-burger-label"><i class="fa-solid fa-bars"></i></label> <input type="checkbox"
+        id="navcheckbox" name="nav-burger">
+    
         <nav>
             <ul class="menu">
-                <li> <a href="#logo" class="active">Home</a></li>
-                <li> <a href="#yoga">Yoga</a></li>
-                <li> <a href="#mindfulness">Mindfulness</a></li>
-                <li> <a href="#retreats">Retreats</a></li>
-                <li> <a href="">Join today</a></li>
-                <li> <a href="#contactinfo">Contact us</a></li>
-
+                    <li> <a href="#logo" class="active">Home</a></li>
+                    <li> <a href="#yoga">Yoga</a></li>
+                    <li> <a href="#mindfulness">Mindfulness</a></li>
+                    <li> <a href="#retreats">Retreats</a></li>
+                    <li> <a href="#form-box">Join today</a></li>
+                    <li> <a href="#contactinfo">Contact us</a></li>
             </ul>
-        
-        </nav>
+            </nav>    
     </header>
-        <main>
-            <!--Homepage with hero image"-->
-            <section id="homepage">
-                <div id="hero-image">
-                    <div id="homepage-boxes">
-                        <a href="#yoga" aria-label="Go to Yoga section">
-                            <div class="nav-links-homepage">
-                                <h2>Yoga</h2>
-                                <p>Find inner calm for your body and soul through physical excercise.</p>
-                            </div>
-                        </a>
-                        <a href="#mindfulness" aria-label="Go to Mindfulness Section">
-                            <div class="nav-links-homepage">
-                                <h2>Mindfulness</h2>
-                                <p>Learn the practice of meditation to unwind from the day to day.</p>
-                            </div>
-                        </a>
-                        <a href="#retreats" aria-label="Go to Retreat Section">
-                            <div class="nav-links-homepage">
-                                <h2>Retreats</h2>
-                                <p>Take time out and enjoy both mindfulness and yoga outside of the city</p>
-                            </div>
-                        </a>
-                    </div>
+    <main>
+        <!--Homepage with hero image"-->
+        <section id="homepage">
+            <div id="hero-image">
+                <div id="homepage-boxes"> <a href="#yoga" aria-label="Go to Yoga section">
+                        <div class="nav-links-homepage">
+                            <h2>Yoga</h2>
+                            <p>Find inner calm for your body and soul through physical excercise.</p>
+                        </div>
+                    </a> <a href="#mindfulness" aria-label="Go to Mindfulness Section">
+                        <div class="nav-links-homepage">
+                            <h2>Mindfulness</h2>
+                            <p>Learn the practice of meditation to unwind from the day to day.</p>
+                        </div>
+                    </a> <a href="#retreats" aria-label="Go to Retreat Section">
+                        <div class="nav-links-homepage">
+                            <h2>Retreats</h2>
+                            <p>Take time out and enjoy both mindfulness and yoga outside of the city</p>
+                        </div>
+                    </a> </div>
+            </div>
+        </section>
+        <!--Yoga Section-->
+        <section id="class-sections">
+            <div id="yoga">
+                <div class="circle-pictures"> <img src="assets/images/pexels-elina-fairytale-3823187.jpg"
+                        alt="Girl doing a yoga pose."> </div>
+                <h2>Yoga</h2>
+                <p class="description"> Yoga is one of the oldest physical disciplines. It combines slow movements with
+                    deep breathing through many different poses. It can help relieve anxiety, improve sleep and promote
+                    better body awareness and posture. Best of all: Anyone can enjoy yoga! </p>
+            </div>
+            <!--Yoga Timetable-->
+            <div class="timetable">
+                <div class="beginner">
+                    <h3>Beginner</h3>
+                    <table class="class-times">
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                        </tr>
+                        <tr>
+                            <td>Monday</td>
+                            <td>6-7pm</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>7-8pm</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>8-9pm</td>
+                        </tr>
+                    </table>
                 </div>
-            </section>
-            <!--Yoga Section-->
-            <section id="class-sections">
-                <div id="yoga">
-                    <div class="circle-pictures">
-                        <img src="assets/images/pexels-elina-fairytale-3823187.jpg" alt="Girl doing a yoga pose.">
-                    </div>
-                    <h2>Yoga</h2> 
-                    <p class="description">
-                        Yoga is one of the oldest physical disciplines. It combines slow movements with deep breathing through many different poses. It can help relieve anxiety, improve sleep and promote better body awareness and posture. Best of all: Anyone can enjoy yoga!
-                    </p> 
-                    
+                <div class="intermediate">
+                    <h3>Intermediate</h3>
+                    <table class="class-times">
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                        </tr>
+                        <tr>
+                            <td>Monday</td>
+                            <td>7-8pm</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>8-9pm</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>6-7pm</td>
+                        </tr>
+                    </table>
                 </div>
+                <div class="advanced">
+                    <h3>Advanced</h3>
+                    <table class="class-times">
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                        </tr>
+                        <tr>
+                            <td>Monday</td>
+                            <td>8-9pm</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>6-7pm</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>7-8pm</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!--Mindulness Section-->
+            <div id="mindfulness">
+                <div class="circle-pictures"> <img src="assets/images/pexels-elina-fairytale-3822864.jpg"
+                        alt="Girl doing a meditation pose."> </div>
+                <h2>Mindfulness</h2>
+                <p class="description">Mindfulness is a form of meditation that can relief stress while also sharpening
+                    your memory and increasing your ability to focus. It can also increase your energy levels both
+                    mentally and physically.</p>
+                <!--Mindfulness Timetable-->
                 <div class="timetable">
                     <div class="beginner">
                         <h3>Beginner</h3>
                         <table class="class-times">
                             <tr>
                                 <th>Day</th>
-                                <th>Time</th> 
+                                <th>Time</th>
                             </tr>
                             <tr>
-                                <td>Monday</td>
+                                <td>Tuesday</td>
                                 <td>6-7pm</td>
                             </tr>
                             <tr>
-                                <td>Wednesday</td>
+                                <td>Thursday</td>
                                 <td>7-8pm</td>
                             </tr>
                             <tr>
-                                <td>Friday</td>
-                                <td>8-9pm</td>
+                                <td>Saturday</td>
+                                <td>8-9am</td>
                             </tr>
-                  
                         </table>
                     </div>
                     <div class="intermediate">
@@ -108,18 +175,17 @@
                                 <th>Time</th>
                             </tr>
                             <tr>
-                                <td>Monday</td>
+                                <td>Tuesday</td>
                                 <td>7-8pm</td>
                             </tr>
                             <tr>
-                                <td>Wednesday</td>
+                                <td>Thursday</td>
                                 <td>8-9pm</td>
                             </tr>
                             <tr>
-                                <td>Friday</td>
-                                <td>6-7pm</td>
+                                <td>Saturday</td>
+                                <td>9-10am</td>
                             </tr>
-                
                         </table>
                     </div>
                     <div class="advanced">
@@ -130,252 +196,151 @@
                                 <th>Time</th>
                             </tr>
                             <tr>
-                                <td>Monday</td>
+                                <td>Tuesday</td>
                                 <td>8-9pm</td>
                             </tr>
                             <tr>
-                                <td>Wednesday</td>
+                                <td>Thursday</td>
                                 <td>6-7pm</td>
                             </tr>
                             <tr>
-                                <td>Friday</td>
-                                <td>7-8pm</td>
+                                <td>Saturday</td>
+                                <td>10-11am</td>
                             </tr>
                         </table>
                     </div>
                 </div>
-                <!--Mindulness Section-->
-                <div id="mindfulness">
-                    <div class="circle-pictures">
-                        <img src="assets/images/pexels-elina-fairytale-3822864.jpg" alt="Girl doing a meditation pose.">
-                    </div>
-                    <h2>Mindfulness</h2>
-                    <p class="description">Mindfulness is a form of meditation that can relief stress while also sharpening your memory and increasing your ability to focus. It can also increase your energy levels both mentally and physically.</p>
-                
-                    <div class="timetable">
-                        <div class="beginner">
-                            <h3>Beginner</h3>
-                            <table class="class-times">
-                                <tr>
-                                    <th>Day</th>
-                                    <th>Time</th>
-                                </tr>
-                                <tr>
-                                    <td>Tuesday</td>
-                                    <td>6-7pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Thursday</td>
-                                    <td>7-8pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday</td>
-                                    <td>8-9am</td>
-                                </tr>
-                    
-                            </table>
-                        </div>
-                        <div class="intermediate">
-                            <h3>Intermediate</h3>
-                            <table class="class-times">
-                                <tr>
-                                    <th>Day</th>
-                                    <th>Time</th>
-                                </tr>
-                                <tr>
-                                    <td>Tuesday</td>
-                                    <td>7-8pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Thursday</td>
-                                    <td>8-9pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday</td>
-                                    <td>9-10am</td>
-                                </tr>
-                        
-                            </table>
-                        </div>
-                        <div class="advanced">
-                            <h3>Advanced</h3>
-                            <table class="class-times">
-                                <tr>
-                                    <th>Day</th>
-                                    <th>Time</th>
-                                </tr>
-                                <tr>
-                                    <td>Tuesday</td>
-                                    <td>8-9pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Thursday</td>
-                                    <td>6-7pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday</td>
-                                    <td>10-11am</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <!--Retreats Section-->
-                <div id="retreats">
-                    <div class="circle-pictures">
-                        <img src="assets/images/pexels-elina-fairytale-3822727.jpg" alt="Girls together at a yoga class.">
-                    </div>
-                    <h2>Retreats</h2>
-                    <p class="description">Retreats are an opporunity to disconnect from technology and connect to the natural world around you and gain perspective on your life. Take some time to form bonds with other like minded souls while learning some new skills.
-                    </p>
-                
-                    <div class="timetable">
-                        <div class="beginner">
-                            <h3>Beginner</h3>
-                            <table class="class-times">
-                                <tr>
-                                    <th>Month</th>
-                                    <th>Date</th>
-                                </tr>
-                                <tr>
-                                    <td>January</td>
-                                    <td>10th-12th</td>
-                                </tr>
-                                <tr>
-                                    <td>February</td>
-                                    <td>16th-18th</td>
-                                </tr>
-                                <tr>
-                                    <td>March</td>
-                                    <td>20th-22nd</td>
-                                </tr>
-                    
-                            </table>
-                        </div>
-                        <div class="intermediate">
-                            <h3>Intermediate</h3>
-                            <table class="class-times">
-                                <tr>
-                                    <th>Month</th>
-                                    <th>Date</th>
-                                </tr>
-                                <tr>
-                                    <td>January</td>
-                                    <td>20th-22nd</td>
-                                </tr>
-                                <tr>
-                                    <td>February</td>
-                                    <td>11th-13th</td>
-                                </tr>
-                                <tr>
-                                    <td>March</td>
-                                    <td>5th-7th</td>
-                                </tr>
-                    
-                            </table>
-                        </div>
-                            <div class="advanced">
-                                <h3>Advanced</h3>
-                                <table class="class-times">
-                                    <tr>
-                                        <th>Month</th>
-                                        <th>Date</th>
-                                    </tr>
-                                    <tr>
-                                        <td>January</td>
-                                        <td>15th-17th</td>
-                                    </tr>
-                                    <tr>
-                                        <td>February</td>
-                                        <td>4th-6th</td>
-                                    </tr>
-                                    <tr>
-                                        <td>March</td>
-                                        <td>12th-14th</td>
-                                    </tr>
-                                </table>
-                            </div>
-                        
-                    </div>
-                </div>
-            </section>
-            <section id="contactinfo">
-                        <div class="woods-img">
-                            <div id="form-box">
-                                <h3>Join us today!</h3> 
-                                <form action="https://formdump.codeinstitute.net" method="POST">
-                                    <div>
-                                        <label for="first-name">First Name:</label>
-                                        <br>
-                                        <input id="first-name" name="first-name" type="text" class="input-text" required>
-                                    </div>
-                                    <div>
-                                        <label for="surname">Surname:</label>
-                                        <br>
-                                        <input id="surname" name="surname" type="text" class="input-text" required>
-                                    </div>
-                                    <div>
-                                        <label for="email">Email Address:</label>
-                                        <br>
-                                        <input id="email" name="email" type="email" class="input-text" required>
-                                    </div>
-                                    <div>
-                                        <label for="date-of-birth">Date of Birth:</label>
-                                        <br>
-                                        <input id="date-of-birth" name="date-of-birth" type="date" class="input-text">
-                                    </div>
-                                    <div>
-                                        <label for="classtype">Which class are you applying for?</label>
-                                        <select id="classtype" class="input-text" name="type-of-class">
-                                            <option value="yoga">Yoga</option>
-                                            <option value="mindfulness">Mindfulness</option>
-                                            <option value="retreat">Retreat</option>
-                                        </select>
-                                    </div>
-                                    <div>
-                                        <label for="classlevel">What level class would you like to take?</label>
-                                        <select id="classlevel" name="level-of-class" class="input-text">
-                                            <option value="beginner">Beginner</option>
-                                            <option value="intermediate">Intermediate</option>
-                                            <option value="advanced">Advanced</option>
-                                        </select>
-                                    </div>
-                                    <div>
-                                        <input type="checkbox" name="emailme" value="yes" class="checkbox" checked>
-                                        <label for="checkbox" class="checkbox">Send class offers to my email.</label>
-                                    </div>
-                                    <div class="join">
-                                        <button type="submit" class="join-button">Join Today!</button>
-                                    </div>
-                    
-                                </form>
-                            </div>
-                        </div>
-            <!--Contact information-->
-            <div class="contact">
-                <h3>Contact us today!</h3>
-                    <p>Phone: 06767001835</p>
-                    <p>Email: wellnesswien@gmail.com</p>
-                    <p>Address: Kartner Strasse 5, 1010 Wien</p>
-                </div>
-            </section>
-        </main>
-        <!--Footer-->
-    <footer>
-            <div id="footer-links">
-                <a href="http://www.facebook.com/" aria-label="Go to our Facebook page (opens in new tab)" target="_blank"><i
-                        class="fa-brands fa-facebook"></i></a>
-                <a href="http://www.instagram.com/" aria-label="Go to our Instragam page (opens in new tab)" target="_blank"><i
-                        class="fa-brands fa-instagram"></i></a>
-                <a href="http://www.twitter.com" target="_blank" aria-label="Go to page to twitter page. (Opens in new tab)"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="http://www.googlemaps.com/"
-                    aria-label="Go to Google Maps to see where we are located. (opens in new tab)" target="_blank"><i
-                        class="fa-solid fa-map-location-dot"></i></a>
-                
-        
             </div>
-        </footer>
-        <script src="https://kit.fontawesome.com/814ab9f788.js" crossorigin="anonymous"></script>
-    
+            <!--Retreats Section-->
+            <div id="retreats">
+                <div class="circle-pictures"> <img src="assets/images/pexels-elina-fairytale-3822727.jpg"
+                        alt="Girls together at a yoga class."> </div>
+                <h2>Retreats</h2>
+                <p class="description">Retreats are an opporunity to disconnect from technology and connect to the
+                    natural world around you and gain perspective on your life. Take some time to form bonds with other
+                    like minded souls while learning some new skills. </p>
+                <!--Retreats Timetable-->
+                <div class="timetable">
+                    <div class="beginner">
+                        <h3>Beginner</h3>
+                        <table class="class-times">
+                            <tr>
+                                <th>Month</th>
+                                <th>Date</th>
+                            </tr>
+                            <tr>
+                                <td>January</td>
+                                <td>10th-12th</td>
+                            </tr>
+                            <tr>
+                                <td>February</td>
+                                <td>16th-18th</td>
+                            </tr>
+                            <tr>
+                                <td>March</td>
+                                <td>20th-22nd</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="intermediate">
+                        <h3>Intermediate</h3>
+                        <table class="class-times">
+                            <tr>
+                                <th>Month</th>
+                                <th>Date</th>
+                            </tr>
+                            <tr>
+                                <td>January</td>
+                                <td>20th-22nd</td>
+                            </tr>
+                            <tr>
+                                <td>February</td>
+                                <td>11th-13th</td>
+                            </tr>
+                            <tr>
+                                <td>March</td>
+                                <td>5th-7th</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="advanced">
+                        <h3>Advanced</h3>
+                        <table class="class-times">
+                            <tr>
+                                <th>Month</th>
+                                <th>Date</th>
+                            </tr>
+                            <tr>
+                                <td>January</td>
+                                <td>15th-17th</td>
+                            </tr>
+                            <tr>
+                                <td>February</td>
+                                <td>4th-6th</td>
+                            </tr>
+                            <tr>
+                                <td>March</td>
+                                <td>12th-14th</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Form-->
+        <section id="contactinfo">
+            <div class="woods-img">
+                <div id="form-box">
+                    <h3>Join us today!</h3>
+                    <form action="https://formdump.codeinstitute.net" method="POST">
+                        <div> <label for="first-name">First Name:</label> <br> <input id="first-name" name="first-name"
+                                type="text" class="input-text" required> </div>
+                        <div> <label for="surname">Surname:</label> <br> <input id="surname" name="surname" type="text"
+                                class="input-text" required> </div>
+                        <div> <label for="email">Email Address:</label> <br> <input id="email" name="email" type="email"
+                                class="input-text" required> </div>
+                        <div> <label for="date-of-birth">Date of Birth:</label> <br> <input id="date-of-birth"
+                                name="date-of-birth" type="date" class="input-text"> </div>
+                        <div> <label for="classtype">Which class are you applying for?</label> <select id="classtype"
+                                class="input-text" name="type-of-class">
+                                <option value="yoga">Yoga</option>
+                                <option value="mindfulness">Mindfulness</option>
+                                <option value="retreat">Retreat</option>
+                            </select> </div>
+                        <div> <label for="classlevel">What level class would you like to take?</label> <select
+                                id="classlevel" name="level-of-class" class="input-text">
+                                <option value="beginner">Beginner</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="advanced">Advanced</option>
+                            </select> </div>
+                        <div> <input type="checkbox" id="checkbox" name="emailme" value="yes" class="checkbox" checked>
+                            <label for="checkbox" class="checkbox">Send class offers to my email.</label> </div>
+                        <div class="join"> <button type="submit" class="join-button">Join Today!</button> </div>
+                    </form>
+                </div>
+            </div>
+            <!--Contact information-->
+            <div id="contact">
+                <h3>Contact us today!</h3>
+                <p>Phone: 06767001835</p>
+                <p>Email: wellnesswien@gmail.com</p>
+                <p>Address: Kartner Strasse 5, 1010 Wien</p>
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>
+        <div id="footer-links"> <a href="http://www.facebook.com/"
+                aria-label="Go to our Facebook page (opens in new tab)" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a> <a href="http://www.instagram.com/"
+                aria-label="Go to our Instragam page (opens in new tab)" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a> <a href="http://www.twitter.com" target="_blank"
+                aria-label="Go to page to twitter page. (Opens in new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="http://www.googlemaps.com/"
+                aria-label="Go to Google Maps to see where we are located. (opens in new tab)" target="_blank"><i
+                    class="fa-solid fa-map-location-dot"></i></a> </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/814ab9f788.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
