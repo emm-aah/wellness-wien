@@ -3,8 +3,8 @@
 body {
     font-family: sans-serif;
     min-height: 90%;
-    margin: 10vh 0 0;
     background-color: #f5f5f5;
+    margin: 0;
 }
 
 /* Header */
@@ -19,10 +19,6 @@ header {
     padding-top: 10px;
     padding-bottom: 20px;
     box-shadow: 0 2px 2px #032d46;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-
 }
 
 header a {
@@ -32,51 +28,40 @@ header a {
     font-family: sans-serif;
 }
 
+.burger-and-logo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    color: #f5f5f5;
+    font-size: 100%
+
+}
+
+
 a:hover {
     text-decoration: underline;
 }
 
 
-#logo {
-    font-size: 150%;
-
-}
-
 nav {
-      background-color: #043959;
-      margin-top: -5px;
-      margin-left: 5px;
-      width: 100px;
-      padding: 15px 0 5px;
-      line-height: 25px;
-      box-shadow: 0 3px 3px 0 #032d46;
-      display: none;
-
+    background-color: #043959;
+    margin-left: 10px;
+    width: 150px;
+    padding: 15px 5px 5px;
+    line-height: 25px;
+    box-shadow: 0 3px 3px 0 #032d46;
+    position: absolute;
   }
-.menu {
-        background-color: #043959;
-        margin-left: 10px;
-        width: 150px;
-        padding: 15px 5px 5px;
-        line-height: 25px;
-        box-shadow: 0 3px 3px 0 #032d46;
-}
 
-.nav-burger {
-    margin-top: 20px;
-}
- 
-#nav-burger {
+
+#navcheckbox {
     display: none;
 }
+    
 
-.nav-burger-label {
-    font-size: 1.5em;
-    color: #f5f5f5;
-    text-align: left;
-}
 
-  #nav-burger:checked~nav {
+
+#navcheckbox:checked~nav {
       display: block;
   }
 
@@ -86,10 +71,12 @@ ul {
 
 
 /* Main Homepage */
+
+
 #homepage, #formpage {
     position: relative;
     min-height: 80vh;
-    top: 0;
+    top: 10vh;
     left: 0;
     width: 100%;
 }
@@ -157,7 +144,7 @@ img {
 
 p {
     padding: 0 20px;
-    font-size: 90%;
+    font-size: 80%;
 }
 
 .class-times {
@@ -195,12 +182,9 @@ p {
 #form-box {
 
     position: relative;
-    top: 5vh;
-    bottom: 10vh;
-    margin: 0 10px;
     color: #ffffff;
     background-color: rgba(4, 57, 89, 0.7);
-    padding-bottom: 10px;
+    
 
 }
 
@@ -223,7 +207,7 @@ p {
     border: 1px solid #043959;
     padding: 3px;
     color: #ffffff;
-    width: 50%;
+    width: 90%;
 
 }
 
@@ -270,23 +254,27 @@ footer a {
         letter-spacing: 2px;
     }
     header {
-        box-shadow: 0;
+        box-shadow: 0 0 0 0;
         display: block;
-        text-align: center;
+        padding-bottom: 20px;
     }
 
     header a {
         font-size: larger;
         font-stretch: extra-expanded;
         letter-spacing: 3px;
+        text-align: center;
     }
 
-    .menu {
-        display: show;
+    nav {
+        display: block;
         position: relative;
         padding: 0;
         box-shadow: 0 0 0 0;
-        margin-left: 0;
+        margin: -20px 0 0;
+        width: 100%;
+    }
+    .menu {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -321,6 +309,11 @@ footer a {
         font-size: 105%;
         font-style: normal;
         padding-top: 30px;
+    }
+
+    p {
+        padding: 0 30px;
+        font-size: 90%;
     }
 
     .timetable {
