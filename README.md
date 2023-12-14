@@ -1,4 +1,5 @@
 # Wellness Wien
+
 Wellness Wien is a holistic company which provides classes for both yoga and mindfulness at all levels and also offers retreats on a monthly basis. This website has been created to help people learn what Wellness Wien has in terms of classes as well as helping those who wish to attend to sign up. The site gives a few benefits of each different activity and the times that are available to each level.
 
 Wellness Wien hopes to bring a sense of calm to people in the city through their practices and the website design should reflect this. It is aimed at people who are currently stressed out in the city and hoping to find a sense of calm or people who already understand the practice but hope to find a new class at an advanced level. The purpose of the site is to inspire people to pick up or re-enter yoga/mindfulness with the company.
@@ -14,14 +15,17 @@ The strategy was to make a user friendly website that was calming yet informativ
 ## Surface
 
 I chose the background photo below as although it uses vibrant colors there is a real sense of calm from it. This was something I wished to replicate within the web design.
-(./assets/readme-images/woods-image-small.jng)
+(../assets/readme-images/woods-image-small.jng)
 
-(./assets/readme-images/color-palette.png)
+(/assets/readme-images/color-palette.png)/
 
 ### Existing Features
 
 - Navigation Bar
 The navigation bar is fixed and will be constantly available to the user as they scroll. It provides links to the yoga, mindfulness, retreats, join today and contact us sections of the website. The navigation bar is responsive. It appears as a dropdown menu on mobile phones but on tablets and larger screens it is visible in the header.
+
+!(/assets/readme-images/nav-bar-desktop.png)
+
 
 - Landing Page
 The landing page gives a quick tag line for each section and they also double as another link to the different areas of the site.
@@ -47,12 +51,20 @@ I tested the project myself first by making sure all the links bring the user to
 There were no errors in the HTML official WRC Validator.
 There were no errors in the CSS official Jigsaw Validator.
 
+### Bugs
+
+The navigation burger in mobile view wouldn't line up with the heading so I put a div around them to change the display to flex. The navigation bar then wouldn't reappear when clicked so I moved the checkbox out of the div and then that fixed the issue.
+
 ### Unfixed bugs
 
+As far as I have found there are no unfixed bugs.
+
 ### Deployment
+
 I deployed my website using Github. I made a repository and then deployed it by going to settings. I chose the main branch and then waited for it to deploy. I did this about half way through my project so I could fix any errors that occur with deployment as early as possible.
 
 ### Credits
+
 -Content
 _www.w3schools.com_
 _www.codeinstitute.com_
