@@ -4,7 +4,9 @@ Wellness Wien is a holistic company which provides classes for both yoga and min
 
 Wellness Wien hopes to bring a sense of calm to people in the city through their practices and the website design should reflect this. It is aimed at people who are currently stressed out in the city and hoping to find a sense of calm or people who already understand the practice but hope to find a new class at an advanced level. The purpose of the site is to inspire people to pick up or re-enter yoga/mindfulness with the company.
 
-The live website can be found here: <https://emm-aah.github.io/wellness-wien/>
+![Responsive Demo](/assets/readme-images/responsive-demo.png)
+
+The live website can be found ![here](/https://emm-aah.github.io/wellness-wien/)
 
 ## Strategy
 
@@ -15,17 +17,17 @@ The strategy was to make a user friendly website that was calming yet informativ
 ## Surface
 
 I chose the background photo below as although it uses vibrant colors there is a real sense of calm from it. This was something I wished to replicate within the web design.
-!(./wellness-wien/assets/readme-images/woods-image-small.jng)
+![Background Image](/assets/readme-images/woods-image-small.jpg)
 
-!(./assets/readme-images/color-palette.png)/
+![Color Palette](/assets/readme-images/color-palette.png)
 
 ### Existing Features
 
 - Navigation Bar
 The navigation bar is fixed and will be constantly available to the user as they scroll. It provides links to the yoga, mindfulness, retreats, join today and contact us sections of the website. The navigation bar is responsive. It appears as a dropdown menu on mobile phones but on tablets and larger screens it is visible in the header.
 
-!(/assets/readme-images/nav-bar-desktop.png)
-
+![Navigation bar for desktop](/assets/readme-images/nav-bar-desktop.png)
+![Navigation bar for mobile](/assets/readme-images/nav-bar-mobile.png)
 
 - Landing Page
 The landing page gives a quick tag line for each section and they also double as another link to the different areas of the site.
@@ -36,12 +38,15 @@ These sections show an image of people partaking in the relevant class for the s
 - Timetables
 This provides the user with the information they need about the classes and the times that are available to them and their level.
 
-_Join_
+![Timetables](/assets/readme-images/timetable.png)
+
+-Join
 There is a small form to enter information if a user would like to apply to join a class.
 
-_Contact Information_
+-Contact Information
 A quick list of contact information
-_Footer_
+
+-Footer
 The footer has four favicons for links to the websites: facebook, instagram, twitter and google maps. This is handy for the user if they would like to reach out to the Wellness Wien community.
 
 ### Testing
