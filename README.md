@@ -15,9 +15,9 @@ The strategy was to make a user friendly website that was calming yet informativ
 ## Surface
 
 I chose the background photo below as although it uses vibrant colors there is a real sense of calm from it. This was something I wished to replicate within the web design.
-(../assets/readme-images/woods-image-small.jng)
+!(./wellness-wien/assets/readme-images/woods-image-small.jng)
 
-(/assets/readme-images/color-palette.png)/
+!(./assets/readme-images/color-palette.png)/
 
 ### Existing Features
 
