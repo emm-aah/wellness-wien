@@ -4,13 +4,13 @@ Wellness Wien is a holistic company which provides classes for both yoga and min
 
 Wellness Wien hopes to bring a sense of calm to people in the city through their practices and the website design should reflect this. It is aimed at people who are currently stressed out in the city and hoping to find a sense of calm or people who already understand the practice but hope to find a new class at an advanced level. The purpose of the site is to inspire people to pick up or re-enter yoga/mindfulness with the company.
 
-![Responsive Demo](/assets/readme-images/responsive-demo.png)
+![Responsive Demo](/readme-images/responsive-demo.png)
 
 The live website can be found ![here](/https://emm-aah.github.io/wellness-wien/)
 
 ## Strategy
 
-The strategy was to make a user friendly website that was calming yet informative for potential clients.
+The strategy was to make a user friendly website that was calming yet informative for potential clients. The site should be accessible for potential clients to see what classes are available and offer them an easy opportunity to apply.
 
 ## Scope
 
@@ -21,41 +21,41 @@ The strategy was to make a user friendly website that was calming yet informativ
 ## Surface
 
 I chose the background photo below as although it uses vibrant colors there is a real sense of calm from it. This was something I wished to replicate within the web design.
-![Background Image](/assets/readme-images/woods-image-small.jpg)
+![Background Image](/readme-images/woods-image-small.jpg)
 
-![Color Palette](/assets/readme-images/color-palette.png)
+![Color Palette](/readme-images/color-palette.png)
 
 ### Existing Features
 
 - Navigation Bar
 The navigation bar is fixed and will be constantly available to the user as they scroll. It provides links to the yoga, mindfulness, retreats, join today and contact us sections of the website. The navigation bar is responsive. It appears as a dropdown menu on mobile phones but on tablets and larger screens it is visible in the header.
 
-![Navigation bar for desktop](/assets/readme-images/nav-bar-desktop.png)
+![Navigation bar for desktop](/readme-images/nav-bar-desktop.png)
 
 - Landing Page
 The landing page gives a quick tag line for each section and they also double as another link to the different areas of the site.
 
-![Landing Page](/assets/readme-images/landing-page.png)
+![Landing Page](/readme-images/landing-page.png)
 
 - Yoga/ Mindfulness/ Retreats Sections
 These sections show an image of people partaking in the relevant class for the section. It also gives a few sentences on what benefits can result from taking part and a timetable for relevant classes and levels.
 
-![Mindfulness Sections](/assets/readme-images/mindulness-section.png)
+![Mindfulness Sections](/readme-images/mindulness-section.png)
 
 - Timetables
 This provides the user with the information they need about the classes and the times that are available to them and their level.
 
-![Timetables](/assets/readme-images/timetable.png)
+![Timetables](/readme-images/timetable.png)
 
 -Join & Contact Information
 There is a small form to enter information if a user would like to apply to join a class and a list of contact information.
 
-![Join Form and Contact Information](/assets/readme-images/contact-info-and-join.png)
+![Join Form and Contact Information](/readme-images/contact-info-and-join.png)
 
 -Footer
 The footer has four favicons for links to the websites: facebook, instagram, twitter and google maps. This is handy for the user if they would like to reach out to the Wellness Wien community. They all open to new web pages.
 
-![Footer](/assets/readme-images/Footer.png)
+![Footer](/readme-images/Footer.png)
 
 ### Testing
 
@@ -68,9 +68,6 @@ There were no errors in the CSS official Jigsaw Validator.
 
 The navigation burger in mobile view wouldn't line up with the heading so I put a div around them to change the display to flex. The navigation bar then wouldn't reappear when clicked so I moved the checkbox out of the div and then that fixed the issue.
 
-#### Unfixed bugs
-
-As far as I have found there are no unfixed bugs.
 
 ### Deployment
 
@@ -79,8 +76,8 @@ I deployed my website using Github. I made a repository and then deployed it by 
 ### Credits
 
 -Content
-_www.w3schools.com_
-_www.codeinstitute.com_
+www.w3schools.com - 
+www.codeinstitute.com - love running project. I used this to help me with the header and navigation bar aswell as the footer.
 
 -Media
-_www.pexels.com_ I used Pexel for all images I used in this site.
+www.pexels.com I used Pexel for all images I used in this site.
