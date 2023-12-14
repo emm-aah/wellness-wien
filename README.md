@@ -12,7 +12,11 @@ The live website can be found ![here](/https://emm-aah.github.io/wellness-wien/)
 
 The strategy was to make a user friendly website that was calming yet informative for potential clients.
 
+## Scope
+
 ## Structure
+
+## Skeleton
 
 ## Surface
 
@@ -27,27 +31,31 @@ I chose the background photo below as although it uses vibrant colors there is a
 The navigation bar is fixed and will be constantly available to the user as they scroll. It provides links to the yoga, mindfulness, retreats, join today and contact us sections of the website. The navigation bar is responsive. It appears as a dropdown menu on mobile phones but on tablets and larger screens it is visible in the header.
 
 ![Navigation bar for desktop](/assets/readme-images/nav-bar-desktop.png)
-![Navigation bar for mobile](/assets/readme-images/nav-bar-mobile.png)
 
 - Landing Page
 The landing page gives a quick tag line for each section and they also double as another link to the different areas of the site.
 
+![Landing Page](/assets/readme-images/landing-page.png)
+
 - Yoga/ Mindfulness/ Retreats Sections
 These sections show an image of people partaking in the relevant class for the section. It also gives a few sentences on what benefits can result from taking part and a timetable for relevant classes and levels.
+
+![Mindfulness Sections](/assets/readme-images/mindulness-section.png)
 
 - Timetables
 This provides the user with the information they need about the classes and the times that are available to them and their level.
 
 ![Timetables](/assets/readme-images/timetable.png)
 
--Join
-There is a small form to enter information if a user would like to apply to join a class.
+-Join & Contact Information
+There is a small form to enter information if a user would like to apply to join a class and a list of contact information.
 
--Contact Information
-A quick list of contact information
+![Join Form and Contact Information](/assets/readme-images/contact-info-and-join.png)
 
 -Footer
-The footer has four favicons for links to the websites: facebook, instagram, twitter and google maps. This is handy for the user if they would like to reach out to the Wellness Wien community.
+The footer has four favicons for links to the websites: facebook, instagram, twitter and google maps. This is handy for the user if they would like to reach out to the Wellness Wien community. They all open to new web pages.
+
+![Footer](/assets/readme-images/Footer.png)
 
 ### Testing
 
@@ -60,7 +68,7 @@ There were no errors in the CSS official Jigsaw Validator.
 
 The navigation burger in mobile view wouldn't line up with the heading so I put a div around them to change the display to flex. The navigation bar then wouldn't reappear when clicked so I moved the checkbox out of the div and then that fixed the issue.
 
-### Unfixed bugs
+#### Unfixed bugs
 
 As far as I have found there are no unfixed bugs.
 
