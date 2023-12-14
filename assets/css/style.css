@@ -1,7 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway:wght@400;500&display=swap');
 
 body {
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
     min-height: 90%;
     background-color: #f5f5f5;
     margin: 0;
@@ -21,10 +21,10 @@ header {
 }
 
 header a {
+    font-family: "Raleway", sans-serif;
     text-decoration: none;
     color: #f5f5f5;
     font-weight: 100;
-    font-family: sans-serif;
     text-align: center;
     font-size: 80%;
     padding-right: 5px;
