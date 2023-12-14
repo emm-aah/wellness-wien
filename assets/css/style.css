@@ -30,6 +30,8 @@ header a {
     padding-right: 5px;
 }
 
+/*Navigation Styles*/
+
 .nav-burger-label {
     font-size: 150%;
     color: #f5f5f5;
@@ -38,7 +40,6 @@ header a {
 a:hover {
     text-decoration: underline;
 }
-
 
 nav {
     background-color: #043959;
@@ -50,26 +51,23 @@ nav {
     box-shadow: 0 3px 3px 0 #032d46;
     position: absolute;
     display: none;
-  }
-
+}
 
 #navcheckbox {
     display: none;
 }
-    
 
 #navcheckbox:checked~nav {
-      display: block;
-  }
+    display: block;
+}
 
 ul {
     list-style-type: none;
 }
 
+/* Landing page */
 
-/* Main Homepage */
-
-#homepage, #formpage {
+#homepage {
     position: relative;
     min-height: 80vh;
     top: 10vh;
@@ -81,6 +79,7 @@ ul {
     background: url(../images/pexels-pixabay-247421.jpg) no-repeat center/cover;
     min-height: 90vh;
 }
+
 #homepage-boxes {
     position: relative;
     top: 10vh;
@@ -89,7 +88,6 @@ ul {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-
 }
 
 #homepage-boxes a {
@@ -104,16 +102,15 @@ ul {
     padding: 5px;
     margin-bottom: 10px;
     font-size: 90%;
-
 }
+
 /*Class section styles*/
 
 #class-sections {
     background-color: #f5f5f5;
-    color:#043959;
+    color: #043959;
     text-align: center;
 }
-
 
 img {
     margin-top: 70px;
@@ -126,13 +123,15 @@ img {
     max-width: 250px;
 }
 
-
-.class-times  {
-    background-color:rgba(4, 57, 89, 0.9);
+.class-times {
+    background-color: rgba(4, 57, 89, 0.9);
     color: #f5f5f5;
 }
 
-.class-times, th, td, tr {
+.class-times,
+th,
+td,
+tr {
     border: 2px solid #f5f5f5;
     border-collapse: collapse;
     font-size: 90%;
@@ -149,31 +148,28 @@ p {
     max-width: 300px;
 }
 
-#yoga, #mindfulness, #retreats {
+#yoga,
+#mindfulness,
+#retreats {
     margin-top: 50px;
     padding: 20px 0;
 }
-
 
 #mindfulness {
     background-color: #d3d3d9;
 }
 
-
 /*Form Styles*/
 
 .woods-img {
     background-image: url(../images/pexels-pixabay-247421.jpg);
-
 }
-
 
 #form-box {
     position: relative;
     background-color: rgba(211, 211, 217, 0.8);
     color: #043959;
     padding: 30px 10px 10px;
-    
 }
 
 #form-box div {
@@ -182,7 +178,7 @@ p {
 
 #contact {
     background-color: #d3d3d9;
-    color:#043959;
+    color: #043959;
     text-align: center;
     padding: 10px;
 }
@@ -193,30 +189,32 @@ p {
     padding: 3px;
     color: #043959;
     width: 90%;
-
 }
 
 .join {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
+
 .join-button {
     height: 40px;
     width: 100px;
     background-color: #043959;
     color: #f5f5f5;
-    border:2px solid #032d46;
+    border: 2px solid #032d46;
     cursor: pointer;
-
 }
 
 .checkbox {
     font-size: 75%;
 }
+
 #contactinfo h3 {
     text-align: center;
     font-size: 1.5rem;
 }
+
+/*Footer Styles*/
 
 footer {
     background-color: #ffffff;
@@ -225,13 +223,11 @@ footer {
     width: 100%;
     height: 8vh;
     position: relative;
-
 }
 
 footer a {
     font-size: 105%;
     color: #043959;
-
 }
 
 #footer-links {
@@ -246,6 +242,7 @@ footer a {
     body {
         letter-spacing: 2px;
     }
+
     header {
         box-shadow: 0 0 0 0;
         display: block;
@@ -267,18 +264,16 @@ footer a {
         margin: -20px 0 0;
         width: 100%;
     }
+
     .menu {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
-    
 
     .nav-burger-label {
         display: none;
     }
-
-
 
     #homepage-boxes {
         display: flex;
@@ -315,16 +310,13 @@ footer a {
         justify-content: space-evenly;
     }
 
-    
     .class-times {
         line-height: 30px;
         font-size: 110%;
-        width: 25vw; 
+        width: 25vw;
         margin-left: 30px;
         margin-bottom: 40px;
     }
-
-
 
     #contactinfo {
         display: flex;
@@ -335,12 +327,10 @@ footer a {
 
     #form-box {
         width: 50vw;
-        background-color: rgba(211,211,217,0.8);
+        background-color: rgba(211, 211, 217, 0.8);
         color: #043959;
         font-size: 100%;
-
     }
-    
 
     #contact {
         font-size: 120%;
@@ -349,25 +339,24 @@ footer a {
     }
 }
 
-    
-
+/*Media Screens over 1100px*/
 
 @media screen and (min-width: 1100px) {
 
-    nav{
+    nav {
         margin-top: -50px;
     }
+
     #logo {
         font-size: 2em;
     }
-   .nav-links-homepage {
-    height: 20vw;
-    width: 20vw;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    margin-top: 17vh;
-  
-   }
 
+    .nav-links-homepage {
+        height: 20vw;
+        width: 20vw;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        margin-top: 17vh;
+    }
 }
