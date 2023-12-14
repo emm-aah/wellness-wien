@@ -20,6 +20,11 @@ header {
     box-shadow: 0 2px 2px #032d46;
 }
 
+.heading {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 header a {
     font-family: "Raleway", sans-serif;
     text-decoration: none;
@@ -33,6 +38,8 @@ header a {
 /*Navigation Styles*/
 
 .nav-burger-label {
+    padding-top: 20px;
+    padding-right: 40px;
     font-size: 150%;
     color: #f5f5f5;
 }
@@ -65,6 +72,7 @@ ul {
     list-style-type: none;
 }
 
+
 /* Landing page */
 
 #homepage {
@@ -76,7 +84,7 @@ ul {
 }
 
 #hero-image {
-    background: url(../images/pexels-pixabay-247421.jpg) no-repeat center/cover;
+    background: url(../images/woods-image.jpg) no-repeat center/cover;
     min-height: 90vh;
 }
 
@@ -162,7 +170,7 @@ p {
 /*Form Styles*/
 
 .woods-img {
-    background-image: url(../images/pexels-pixabay-247421.jpg);
+    background-image: url(../images/woods-image.jpg);
 }
 
 #form-box {
@@ -247,6 +255,10 @@ footer a {
         box-shadow: 0 0 0 0;
         display: block;
         padding-bottom: 20px;
+    }
+
+    .heading {
+        display: block;
     }
 
     header a {

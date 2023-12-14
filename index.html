@@ -19,10 +19,14 @@
 
 <body>
     <!--Header-->
-    <header> <a href="index.html" class="active">
+    <header>
+        <div class="heading">
+        <label for="navcheckbox" class="nav-burger-label"><i class="fa-solid fa-bars"></i></label>
+         <a href="index.html" class="active">
             <h1 id="logo"><i class="fa-solid fa-spa"></i>Wellness Wien</h1>
         </a>
-        <!--Navigation Bar--> <label for="navcheckbox" class="nav-burger-label"><i class="fa-solid fa-bars"></i></label>
+        </div>
+        <!--Navigation Bar--> 
         <input type="checkbox" id="navcheckbox" name="nav-burger">
         <nav>
             <ul class="menu">
@@ -39,17 +43,17 @@
         <!--Homepage with hero image"-->
         <section id="homepage">
             <div id="hero-image">
-                <div id="homepage-boxes"> <a href="#yoga" aria-label="Go to Yoga section">
+                <div id="homepage-boxes"> <a href="#yoga" name="yoga" aria-label="Go to Yoga section">
                         <div class="nav-links-homepage">
                             <h2>Yoga</h2>
                             <p>Find inner calm for your body and soul through physical excercise.</p>
                         </div>
-                    </a> <a href="#mindfulness" aria-label="Go to Mindfulness Section">
+                    </a> <a href="#mindfulness" name="mindfulness" aria-label="Go to Mindfulness Section">
                         <div class="nav-links-homepage">
                             <h2>Mindfulness</h2>
                             <p>Learn the practice of meditation to unwind from the day to day.</p>
                         </div>
-                    </a> <a href="#retreats" aria-label="Go to Retreat Section">
+                    </a> <a href="#retreats" name="retreats" aria-label="Go to Retreat Section">
                         <div class="nav-links-homepage">
                             <h2>Retreats</h2>
                             <p>Take time out and enjoy both mindfulness and yoga outside of the city</p>
