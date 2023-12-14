@@ -5,11 +5,18 @@ Wellness Wien hopes to bring a sense of calm to people in the city through their
 
 The live website can be found here: <https://emm-aah.github.io/wellness-wien/>
 
-## Strategy:
+## Strategy
 
 The strategy was to make a user friendly website that was calming yet informative for potential clients.
 
-## Structure:
+## Structure
+
+## Surface
+
+I chose the background photo below as although it uses vibrant colors there is a real sense of calm from it. This was something I wished to replicate within the web design.
+(./assets/readme-images/woods-image-small.jng)
+
+(./assets/readme-images/color-palette.png)
 
 ### Existing Features
 
@@ -45,7 +52,10 @@ There were no errors in the CSS official Jigsaw Validator.
 ### Deployment
 I deployed my website using Github. I made a repository and then deployed it by going to settings. I chose the main branch and then waited for it to deploy. I did this about half way through my project so I could fix any errors that occur with deployment as early as possible.
 
-### Credits:
-_Content_
+### Credits
+-Content
+_www.w3schools.com_
+_www.codeinstitute.com_
 
-_Media_
+-Media
+_www.pexels.com_ I used Pexel for all images I used in this site.
