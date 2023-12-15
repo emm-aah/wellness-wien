@@ -138,6 +138,9 @@ img {
 .class-times {
     background-color: rgba(4, 57, 89, 0.9);
     color: #f5f5f5;
+    width: 80vw;
+    margin-left: 10vw;
+    max-width: 300px;
 }
 
 .class-times,
@@ -153,13 +156,6 @@ p {
     padding: 0 20px;
     font-size: 80%;
 }
-
-.class-times {
-    width: 80vw;
-    margin-left: 10vw;
-    max-width: 300px;
-}
-
 
 #mindfulness {
     background-color: #d3d3d9;

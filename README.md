@@ -77,6 +77,10 @@ The footer has four favicons for links to the websites: facebook, instagram, twi
 
 ![Footer](/documentation/readme-images/footer.png)
 
+#### Features left to implement
+
+In the future this website could be expanded. Both testimonials from past students and clips of current classes would enhance the site even further if they wished to add them.
+
 ### Testing
 
 I tested the project myself first by making sure all the links bring the user to the right part of the website. Then I checked the form did not send without the information filled in and that the information was sent properly to the formdump.
@@ -89,11 +93,11 @@ Lighthouse Results [Lighthouse](/documentation/readme-images/lighthouse.png)
 
 ### Bugs
 
-The navigation burger in mobile view wouldn't line up with the heading so I put a div around them to change the display to flex. The navigation bar then wouldn't reappear when clicked so I moved the checkbox out of the div and then that fixed the issue.
+The navigation burger in mobile view wouldn't line up with the heading so I put a div around them to change the display to flex. The navigation bar then wouldn't reappear when clicked so I moved the checkbox out of the div and then that fixed the issue. No unfixed bugs came up in my testing.
 
 ### Deployment
 
-I deployed my website using Github. I made a repository and then deployed it by going to settings. I chose the main branch and then waited for it to deploy. I did this about half way through my project so I could fix any errors that occur with deployment as early as possible. The live link can be found [here](https://emm-aah.github.io/wellness-wien/)
+I deployed my website using Github. I made a repository and then deployed it by going to settings, then pages. I chose the main branch and then waited for it to deploy. I did this about half way through my project so I could fix any errors that occur with deployment as early as possible. The live link can be found [here](https://emm-aah.github.io/wellness-wien/)
 
 ### Credits
 
@@ -104,3 +108,6 @@ I deployed my website using Github. I made a repository and then deployed it by 
 * _Media_
 [https://www.pexels.com] I used Pexel for all images I used in this site.
 [https://www.fontawesome.com] Font awesome was used for the logo and footer icons.
+
+* _Acknowledgements_
+My mentor, Medale Oluwafemi, pointed me in the right direction for resources and had great advice.
