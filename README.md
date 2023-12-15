@@ -6,7 +6,7 @@ Wellness Wien hopes to bring a sense of calm to people in the city through their
 
 ![Responsive Demo](/documentation/readme-images/responsive-demo.png)
 
-The live website can be found here:![Wellness Wien](http://emm-aah.github.io/wellness-wien/)
+The live website can be found here:[Wellness Wien](http://emm-aah.github.io/wellness-wien/)
 
 ## Strategy
 
@@ -16,7 +16,7 @@ The strategy was to make a user friendly website that was calming yet informativ
 
 Some of the features that would be useful in implementing our strategy were:
 
-* Descriptive sections for each class thats offered through words, images or videos.
+* Descriptive sections for each class that's offered through words, images or videos.
 * A timetable for potential clients to see what is available to them at their ability with their own schedule.
 * Links to other resources of the company e.g. facebook and instagram pages.
 * Reviews of past customers
@@ -35,7 +35,7 @@ The features that became a priority were:
 * Contact Information and google maps link.
 * Footer with social media links.
 
-Please find pdf to the Wireframe [here](/documentation/Wellness-Wien-Wireframe.pdf)
+Please find pdf to the Wireframe [here.](/documentation/wellness-wien-wireframe.pdf)
 
 ## Surface
 
@@ -50,7 +50,7 @@ I chose the background photo below as although it uses vibrant colors there is a
 * _Navigation Bar_
 The navigation bar is fixed and will be constantly available to the user as they scroll. It provides links to the yoga, mindfulness, retreats, join today and contact us sections of the website. The navigation bar is responsive. It appears as a dropdown menu on mobile phones but on tablets and larger screens it is visible in the header.
 
-![Navigation bar for desktop](/readme-images/nav-bar-desktop.png)
+![Navigation bar for desktop](/documentation/readme-images/nav-bar-desktop.png)
 
 * _Landing Page_
 The landing page gives a quick tag line for each section and they also double as another link to the different areas of the site.
@@ -75,7 +75,7 @@ There is a small form to enter information if a user would like to apply to join
 * _Footer_
 The footer has four favicons for links to the websites: facebook, instagram, twitter and google maps. This is handy for the user if they would like to reach out to the Wellness Wien community. They all open to new web pages.
 
-![Footer](/documentation/readme-images/Footer.png)
+![Footer](/documentation/readme-images/footer.png)
 
 ### Testing
 
@@ -103,4 +103,4 @@ I deployed my website using Github. I made a repository and then deployed it by 
 
 * _Media_
 [https://www.pexels.com] I used Pexel for all images I used in this site.
-[https//www.fontawesome.com] Font awesome was used for the logo and footer icons.
+[https://www.fontawesome.com] Font awesome was used for the logo and footer icons.
