@@ -15,11 +15,12 @@ The strategy was to make a user friendly website that was calming yet informativ
 ## Scope
 
 Some of the features that would be useful in implementing our strategy were:
--Descriptive sections for each class thats offered through words, images or videos.
--A timetable for potential clients to see what is available to them at their ability with their own schedule.
--Links to other resources of the company e.g. facebook and instagram pages.
--Reviews of past customers
--Contact information and link to google maps.
+
+* Descriptive sections for each class thats offered through words, images or videos.
+* A timetable for potential clients to see what is available to them at their ability with their own schedule.
+* Links to other resources of the company e.g. facebook and instagram pages.
+* Reviews of past customers
+* Contact information and link to google maps.
 
 ## Structure
 
@@ -28,10 +29,11 @@ It was important for the structure to have different sections for each class pro
 ## Skeleton
 
 The features that became a priority were:
--Descriptive section with just photos and text.
--Timetable with class times.
--Contact Information and google maps link.
--Footer with social media links.
+
+* Descriptive section with just photos and text.
+* Timetable with class times.
+* Contact Information and google maps link.
+* Footer with social media links.
 
 Please find pdf to the Wireframe [here](/documentation/Wellness-Wien-Wireframe.pdf)
 
@@ -43,36 +45,34 @@ I chose the background photo below as although it uses vibrant colors there is a
 
 ![Color Palette](/documentation//readme-images/color-palette.png)
 
-![Themed class pictures with matching color palette](/documentation/readme-images/pexels-elina-fairytale-3823187%20copy.jpg)
-
 ### Existing Features
 
--_Navigation Bar_
+* _Navigation Bar_
 The navigation bar is fixed and will be constantly available to the user as they scroll. It provides links to the yoga, mindfulness, retreats, join today and contact us sections of the website. The navigation bar is responsive. It appears as a dropdown menu on mobile phones but on tablets and larger screens it is visible in the header.
 
 ![Navigation bar for desktop](/readme-images/nav-bar-desktop.png)
 
--_Landing Page_
+* _Landing Page_
 The landing page gives a quick tag line for each section and they also double as another link to the different areas of the site.
 
 ![Landing Page](/documentation/readme-images/landing-page.png)
 
--_Yoga/ Mindfulness/ Retreats Sections_
+* _Yoga/ Mindfulness/ Retreats Sections_
 These sections show an image of people partaking in the relevant class for the section. It also gives a few sentences on what benefits can result from taking part and a timetable for relevant classes and levels.
 
 ![Mindfulness Sections](/documentation/readme-images/mindulness-section.png)
 
--_Timetables_
+* _Timetables_
 This provides the user with the information they need about the classes and the times that are available to them and their level.
 
 ![Timetables](/documentation/readme-images/timetable.png)
 
--_Join & Contact Information_
+* _Join & Contact Information_
 There is a small form to enter information if a user would like to apply to join a class and a list of contact information.
 
 ![Join Form and Contact Information](/documentation/readme-images/contact-info-and-join.png)
 
--_Footer_
+* _Footer_
 The footer has four favicons for links to the websites: facebook, instagram, twitter and google maps. This is handy for the user if they would like to reach out to the Wellness Wien community. They all open to new web pages.
 
 ![Footer](/documentation/readme-images/Footer.png)
@@ -97,10 +97,10 @@ I deployed my website using Github. I made a repository and then deployed it by 
 
 ### Credits
 
--_Content_
+* _Content_
 [https://www.w3schools.com] I used this resource for helpful direction throughout the project.
 [https://learn.codeinstitute.net] love running project. I used this to help me with the header, navigation bar and footer.
 
--_Media_
+* _Media_
 [https://www.pexels.com] I used Pexel for all images I used in this site.
 [https//www.fontawesome.com] Font awesome was used for the logo and footer icons.
